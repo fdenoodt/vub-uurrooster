@@ -36,7 +36,7 @@ def calculate_amount_weeks_to_add():
     weeks_to_add = 0
     # if exactly one argument is given
     if len(sys.argv) == 2:
-        weeks_to_add = int(sys.argv[0])
+        weeks_to_add = int(sys.argv[1])
 
     # add 1 if weekend
     if datetime.datetime.today().weekday() >= 5:
